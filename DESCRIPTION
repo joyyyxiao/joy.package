@@ -1,6 +1,6 @@
 Package: joy.package
 Title: What the Package Does (One Line, Title Case)
-Version: 0.1.0https://github.com/joyyyxiao/joy.package/blob/main/DESCRIPTION
+Version: 0.1.0
 Authors@R: person("Joy", "Xiao", email = "xiaoojl@outlook.com", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
 License: MIT
