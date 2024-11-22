@@ -102,7 +102,7 @@ as_array <- function(raster, lonlat = NULL, nrows = 360, ncols = 720){
   }
   matrix <- matrix(NA, nrows * ncols, nlayers(raster))
   for(i in 1:nlayers(raster)){
-    matrix[, i] <- as.numeric(as.matrix(subset(raster, i)))
+    matrix[, i] <- as.numeric(as.matrix(raster::subset(raster, i)))
   }
   rownames(matrix) <- lonlat
   colnames(matrix) <- rep(NA, nlayers(raster))
